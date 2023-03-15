@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2023 at 03:37 AM
+-- Generation Time: Mar 15, 2023 at 05:45 AM
 -- Server version: 10.1.8-MariaDB
 -- PHP Version: 5.6.14
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `iwd_sakura`
+-- Database: `fiesto_magang`
 --
 
 -- --------------------------------------------------------
@@ -393,8 +393,10 @@ CREATE TABLE `counter` (
 
 INSERT INTO `counter` (`id`, `visitor`, `tanggal`, `last`, `kunjungan`, `ip`, `useragent`) VALUES
 (1310, '4038ea9f8ce2f6dddebbb70312c4673d', '2023-01-20 09:11:56', '2023-01-20 09:11:59', 9, '::1', 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'),
-(1309, 'e7e53a92bb4eda5869b92f6f2d72c2c7', '2022-11-01 14:21:14', '2022-11-01 14:26:14', 74, '::1', 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'),
-(1311, '8c85c26396ef2e4ae1155f5d8e4c20b4', '2023-03-15 09:06:25', '2023-03-15 09:36:11', 69, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
+(1311, '8c85c26396ef2e4ae1155f5d8e4c20b4', '2023-03-15 09:06:25', '2023-03-15 09:36:11', 69, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'),
+(1312, '8b7b937fa7b6cd9b64c2978978f08ce7', '2023-03-15 09:44:19', '2023-03-15 10:04:20', 26, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'),
+(1313, '9410d8db8cca9245b17d71f47a70b98c', '2023-03-15 10:17:29', '0000-00-00 00:00:00', 1, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'),
+(1314, '20c7047f2905f450bedf030e9b5a6f09', '2023-03-15 11:37:46', '2023-03-15 11:45:17', 54, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
 
 -- --------------------------------------------------------
 
@@ -412,8 +414,8 @@ CREATE TABLE `counterhistory` (
 --
 
 INSERT INTO `counterhistory` (`nama`, `nilai`) VALUES
-('pasttimevisitors', 1310),
-('pasttimehits', 24695);
+('pasttimevisitors', 1311),
+('pasttimehits', 24769);
 
 -- --------------------------------------------------------
 
@@ -32165,7 +32167,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`userid`, `username`, `password`, `level`, `fullname`) VALUES
 (1, 'dilbert', '}_^}][^}{]_^}^{]_^{}_{^}[^{[]}_^_}}_^}^_^[]}^_}{_}{_]_', 0, 'Dilbert'),
-(2, 'istrator', ']}}}^}__^]_]_^}_{_[^{^{_^}^{_{[]{^__^]__}^}_}_^]_{_^{}_', 0, 'istrator');
+(2, 'istrator', ']}}}^}__^]_]_^}_{_[^{^{_^}^{_{[]{^__^]__}^}_}_^]_{_^{}_', 0, 'istrator'),
+(3, 'magang01', '[_}{__}^_{_{^_^_}^__}^_[{_{[][_^_}]_{_[}__^^{[[]]^_}_]}', 1, 'Fiesto Magang');
 
 -- --------------------------------------------------------
 
@@ -32729,7 +32732,7 @@ ALTER TABLE `catalogwishlist`
 -- AUTO_INCREMENT for table `counter`
 --
 ALTER TABLE `counter`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1312;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1315;
 --
 -- AUTO_INCREMENT for table `decoration`
 --
@@ -32894,7 +32897,7 @@ ALTER TABLE `translation`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `voucher`
 --
