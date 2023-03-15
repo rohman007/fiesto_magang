@@ -1,0 +1,27 @@
+		
+		.kat_action {
+		position: absolute;
+		right: 10px;
+		text-align: right;
+		width: 50px;
+		}
+		.kat_nama {
+  
+  left: 10px;
+  padding-left: 24px;
+  position: absolute;
+}
+.kat_item {
+background-color:#fefefe;
+ border: 1px solid #D3D3D3;
+  cursor: move;
+  height: 25px;
+  line-height: 25px;
+  padding: 5px 0;
+  position: relative;
+  width: 400px;
+}
+
+ol, ul, li {
+    list-style: none outside none;
+}

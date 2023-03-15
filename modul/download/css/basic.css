@@ -1,0 +1,32 @@
+ul.download_conten {
+    list-style: none;
+    padding: 0;
+    margin: 0 -6px;
+    clear: both;
+    overflow: hidden;
+}
+li.xdata:nth-child(4n+1) {clear:both}
+li.xdata {
+    float: left;
+    text-align: center;
+	width:25%;	margin-bottom:25px;
+    padding: 0 8px;
+}
+.xdata a:hover {text-decoration:none;background:#43a5d5;color:#fff}
+.xdata a {
+    display: block;
+    padding: 4px 5px;
+    border: 1px solid;
+	margin-bottom:4px;
+}
+.xdata img.thumbnail {
+    margin-bottom: 7px;	display:inline-block;
+}
+@media (max-width:767px){
+li.xdata:nth-child(4n+1) {clear:none}
+li.xdata:nth-child(2n+1) {clear:both}
+li.xdata {
+	width:50%;
+	text-align:center;
+}
+}

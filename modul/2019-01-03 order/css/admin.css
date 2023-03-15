@@ -1,0 +1,194 @@
+#producttable
+{
+display:inline-block;
+width:500px;
+	
+}
+.productrow
+{
+	display:inline-block;
+	position:relative;
+	width:auto;
+	height:auto;
+	padding-bottom:15px;
+}
+.productdetail
+{
+float:left;
+position:relative;
+}
+.blocktitle
+{
+position:relative;
+}
+.addtocart
+{
+clear:both;
+}
+.addtocart form input[type=submit] 
+{
+    background: none repeat scroll 0 0 #06466A;
+    border: medium none;
+    color: #80BCE0;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 1px 9px;
+	
+}
+.addtocart form input[type=submit] :hover 
+{
+    background: none repeat scroll 0 0 #D13423;
+    color: #E6C292;
+}
+
+.level
+{
+width:50px;
+text-align:left;
+margin-left:58px;
+display:block;
+padding:2px 0 2px 0;
+float:left;
+position:relative;
+clear:both;
+
+}
+.normalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+}
+
+.ilevel
+{
+
+width:50px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.inormalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+.klevel
+{
+
+width:50px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.knormalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+
+.mlevel
+{
+
+width:50px;
+text-align:left;
+margin-left:10%;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.mnormalwodisc
+{
+width:auto;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+.pilihukuran
+{
+padding:5px 15px 5px 15px;
+margin-right:5px;
+color:white;
+}
+.habis
+{
+background-color:grey;
+color:white;
+}
+.terpilih
+{
+background-color:yellowgreen;
+border:1px solid green;
+}
+.belumpilih
+{
+background-color:green;
+}
+
+/*admin*/
+.catalog_label
+{
+clear:both;
+}
+.catalog_partial
+{
+width:504px;
+min-height:100px;
+clear:both;
+
+}
+.catalog_kiri,.catalog_kanan
+{
+float:left;
+min-width:49%;
+min-height:300px;
+
+}
+.catalog_submit
+{
+clear:both;
+}
+#product_foto_group:first-child
+{
+margin-top:20px;
+}
+.catalog_foto_add
+{
+    margin-bottom: 8px;
+    padding: 0;
+    position: relative;
+    width:100px;
+}
+
+
+.catalog_foto_del
+{
+position:absolute;
+top:-16px;
+}
+.thumb_small
+{
+height:50px;
+}
+/*end admin*/
+

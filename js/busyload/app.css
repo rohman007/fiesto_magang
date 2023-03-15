@@ -1,0 +1,32 @@
+.code-pre {
+    white-space: pre;
+}
+
+.flex-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-own-container-class {
+    background: red !important;
+}
+
+.my-own-container-item-class {
+    background: pink !important;
+}
+
+.my-own-spinner-class {
+    background: brown !important;
+}
+
+.my-own-text-class {
+    color: red !important;
+}
+
+.i-am-static {
+    position: static;
+    background: brown;
+    color: white;
+    padding: 1rem;
+}

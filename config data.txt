@@ -1,0 +1,125 @@
+#translation
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_FULLNAMEDROPSHIP',	'Name/Store',	'Name/Store',	'site');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_DATASENDER',	'Data Pengirim',	'Data Pengirim',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_DROPSHIPPER',	'Dropship',	'Dropship',	'po');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CARTCHECKOUT',	'Checkout',	'Selanjutnya',	'cart');
+
+UPDATE `translation` SET `terjemahan` = 'Nama lengkap	' WHERE `konstanta` = '_FULLNAME' AND `id` = '101';
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_KURIRINTERNAL',	'Kurir Internal',	'Internal Courier',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_COURIERNAMEINTERNAL',	'Kurir Internal',	'Internal Courier',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_KG',	'kg',	'kg',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_SEARCHCITYDISTRICT',	'Cari Kota / Kecamatan',	'Cari Kota / Kecamatan',	'cart');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_REVIEWORDERDETAILS',	'Review pesanan anda',	'Review pesanan anda',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_SHIPPINGINFORMATION',	'Informasi Pengiriman',	'Informasi Pengiriman',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_PAYMENTINFORMATION',	'Informasi Pembayaran',	'Informasi Pembayaran',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_TERMOFCONDITIONAGREE',	'Saya telah membaca dan menyetujui',	'Saya telah membaca dan menyetujui',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_TERMOFCONDITIONTEXT',	'syarat dan ketentuan',	'syarat dan ketentuan',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_COMPLETEORDER',	'Complete order',	'Selesaikan Pesanan',	'cart');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_BEAMEMBERTOCONTINUE',	'Daftar Jadi Member untuk Melanjutkan',	'Daftar Jadi Member untuk Melanjutkan',	'webmember');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_BECOMEAMEMBER',	'Daftar jadi Member',	'Daftar jadi Member',	'webmember');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CONFIRMPAYMENT',	'Konfirmasi Pembayaran',	'Konfirmasi Pembayaran',	'site');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_BUKTITRANSFER',	'Bukti Transfer',	'Bukti Transfer',	'order');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_KONFIRMASI',	'Konfirmasi',	'Upload',	'order');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_MSGCONFIRM',	'Apakah data yang anda masukkan sudah benar?',	'Apakah data yang anda masukkan sudah benar?',	'order');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_ADMINNEWORDERSUBJECT',	'Order Baru',	'Order Baru',	'cart');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_ORDERCONFIRMATION',	'Order Confirmation',	'Order Confirmation',	'order');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_ORDERSHIPPED',	'Your Order has Shipped',	'Your Order has Shipped',	'order');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CUSTOMERNEWORDERSUBJECT',	'Transaksi Berhasil',	'Transaksi Berhasil',	'cart');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_BOOKINGHISTORY',	'Order history',	'Order history',	'site');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_EDITPROFILE',	'Edit profile',	'Edit profile',	'site');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_DAFTAR',	'Daftar',	'Register',	'site');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_MASUK',	'Masuk',	'Login',	'site');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_DETAILCONFIRMATIONORDERDETAIL',	'Detail Konfirmasi Pembayaran Transaksi #',	'Detail Konfirmasi Pembayaran Transaksi #',	'order');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CHANGESTATUSTOADMIN',	'Untuk melakukan ubah status pesanan ini, silakan klik link berikut',	'Untuk melakukan ubah status pesanan ini, silakan klik link berikut',	'order');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CHANGESTATUS',	'Ubah Status',	'Ubah Status',	'order');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_VIEWORDERDETAIL',	'View order detail',	'View order detail',	'order');
+
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CAPTCHACANTREADTHEIMAGE',	'Tidak bisa melihat gambar, klik',	'Tidak bisa melihat gambar, klik',	'webmember');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CAPTCHAREFRESH',	'untuk mengulang',	'untuk mengulang',	'webmember');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CAPTCHAHERE',	'disini',	'disini',	'webmember');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_ENTERCODEABOVE',	'Masukkan kode diatas',	'Masukkan kode diatas',	'webmember');
+INSERT INTO `translation` (`id`, `konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+(null,	'_CAPTCHANOTMATCH',	'Koda tidak cocok',	'Koda tidak cocok',	'testimonial');
+
+#config
+INSERT INTO `config` (`name`, `value`, `namatampilan`, `modul`, `tipeform`, `maxlength`) VALUES
+('cart_content_front',	'<table width=\"100%\">\r\n<tbody>\r\n<tr>\r\n<td style=\"width: 56%;\" valign=\"top\">\r\n<h3 style=\"font-weight: bold; margin-bottom: 30px; margin-top: 0; font-size: 14pt;\">Terima kasih telah bertransaksi di toko kami.</h3>\r\n<ul style=\"padding-left: 20px;\">\r\n<li style=\"margin: 0;\">No. Transaksi: #notransaksi</li>\r\n<li style=\"margin: 0;\">Tgl. Transaksi: #tgltransaksi</li>\r\n<li style=\"margin: 0;\">Status Transaksi: #urlstatustransaksi</li>\r\n<li style=\"margin: 0;\">Upload Bukti Pembayaran: #urluploadpembayaran</li>\r\n</ul>\r\n</td>\r\n<td>&nbsp;</td>\r\n<td style=\"width: 32%;\" valign=\"top\">\r\n<p><strong>Silakan melakukan pembayaran sejumlah</strong></p>\r\n<h2 style=\"margin-top: 0; color: #ffa500; font-size: 30px; margin-bottom: 0.83em;\">Rp <strong>#hargatotal</strong></h2>\r\n<p><strong>ke:</strong></p>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<td>#logobank</td>\r\n<td>#namabank #cabang<br />#norekening<br />#an</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>',	'Konten Keranjang Belanja di depan',	'cart',	'textarea;60;10;usetiny',	'2000'),
+('orderconfirmation',	'<p>Kami telah pembayaran anda dan sedang kami proses sekarang.</p>\r\n<p>Terimakasih telah belanja di toko kami.</p>\r\n<p>setelah Kami mengirimkan Pesanan Anda, kami akan Mengirimkan Anda Email dan Nomor&nbsp;Resi</p>',	'Order Confirmation',	'order',	'textarea;60;10;usetiny',	'2000'),
+('ordershipped',	'<p>Pesanan Anda telah dikirim dan sedang dalam perjalanan.</p>\r\n<p>Nomor&nbsp;resi Anda&nbsp;= #noresi&nbsp;</p>\r\n<p>Anda dapat melacak nomor&nbsp;resi Anda di&nbsp;<a href=\"http://cekresi.com\">cekresi.com</a>.</p>\r\n<p>Order status klik&nbsp;#orderdetail</p>',	'Order Shipped',	'order',	'textarea;60;10;usetiny',	'2000');
+
+#sc_receiver
+ALTER TABLE `sc_receiver`
+ADD `nama_pengirim` varchar(20) COLLATE 'latin1_swedish_ci' NULL,
+ADD `telp_pengirim` varchar(20) COLLATE 'latin1_swedish_ci' NULL AFTER `nama_pengirim`,
+ADD `email_pengirim` varchar(255) COLLATE 'latin1_swedish_ci' NULL AFTER `telp_pengirim`;
+
+
+#sc_transaction
+ALTER TABLE `sc_transaction`
+ADD `is_dropship` tinyint(1) NOT NULL,
+ADD `bank_tujuan` varchar(50) NOT NULL AFTER `is_dropship`,
+ADD `bank_asal` varchar(50) NOT NULL AFTER `bank_tujuan`,
+ADD `atas_nama` varchar(100) NOT NULL AFTER `bank_asal`,
+ADD `no_rekening` varchar(20) NOT NULL AFTER `atas_nama`,
+ADD `nominal` decimal(13,2) NOT NULL AFTER `no_rekening`,
+ADD `tanggal_konfirmasi` datetime NOT NULL AFTER `nominal`,
+ADD `kodevoucher` varchar(15) NOT NULL AFTER `tanggal_konfirmasi`,
+ADD `tipe_voucher` int NOT NULL AFTER `kodevoucher`,
+ADD `nominal_voucher` decimal(13,2) NOT NULL AFTER `tipe_voucher`,
+ADD `tglstart_voucher` date NOT NULL AFTER `nominal_voucher`,
+ADD `tglend_voucher` date NOT NULL AFTER `tglstart_voucher`,
+ADD `is_onetime` tinyint(1) NOT NULL AFTER `tglend_voucher`,
+ADD `insurancevalue` decimal(13,2) NOT NULL AFTER `is_onetime`,
+ADD `packingvalue` decimal(13,2) NOT NULL AFTER `insurancevalue`,
+ADD `kursusdidr` varchar(10) NOT NULL AFTER `packingvalue`,
+ADD `is_del` tinyint(1) NOT NULL AFTER `kursusdidr`;
+
+#sc_transaction_detail
+ALTER TABLE `sc_transaction_detail`
+ADD `attribut_id` int NOT NULL;

@@ -1,0 +1,350 @@
+#producttable
+{
+display:inline-block;
+width:500px;
+	
+}
+.productrow
+{
+	display:inline-block;
+	position:relative;
+	width:auto;
+	height:auto;
+	padding-bottom:15px;
+}
+.productdetail
+{
+float:left;
+position:relative;
+}
+.blocktitle
+{
+position:relative;
+}
+.addtocart
+{
+clear:both;
+}
+.addtocart form input[type=submit] 
+{
+    background: none repeat scroll 0 0 #06466A;
+    border: medium none;
+    color: #80BCE0;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 1px 9px;
+	
+}
+.addtocart form input[type=submit] :hover 
+{
+    background: none repeat scroll 0 0 #D13423;
+    color: #E6C292;
+}
+
+.level
+{
+width:50px;
+text-align:left;
+margin-left:58px;
+display:block;
+padding:2px 0 2px 0;
+float:left;
+position:relative;
+clear:both;
+
+}
+.normalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+}
+
+.ilevel
+{
+
+width:50px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.inormalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+.klevel
+{
+
+width:50px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.knormalwodisc
+{
+width:100px;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+
+.mlevel
+{
+
+width:50px;
+text-align:left;
+margin-left:10%;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+position:relative;
+clear:both;
+}
+.mnormalwodisc
+{
+width:auto;
+text-align:left;
+display:block;
+float:left;
+padding:2px 0 2px 0;
+
+}
+.pilihukuran
+{
+padding:5px 15px 5px 15px;
+margin-right:5px;
+color:white;
+}
+.habis
+{
+background-color:grey;
+color:white;
+}
+.terpilih
+{
+background-color:yellowgreen;
+border:1px solid green;
+}
+.belumpilih
+{
+background-color:green;
+}
+
+/*admin*/
+.catalog_label
+{
+clear:both;
+}
+.catalog_partial
+{
+width:100%;
+min-height:100px;
+clear:both;
+
+}
+.catalog_kiri,.catalog_kanan
+{
+display:inline;
+}
+.catalog_submit
+{
+clear:both;
+}
+#product_foto_group:first-child
+{
+
+}
+.catalog_foto_add {
+  background-color: #FFFFFF;
+  float: left;
+  height: 100px;
+  margin: 3px;
+  position: relative;
+  width: 100px;
+  border:1px dotted #999;
+}
+.catalog_foto_add >  img{
+max-height:95px;
+max-width:95px;
+}
+.catalog_foto_del,.catalog_foto_del_new {
+  bottom: -2px;
+  position: absolute;
+  right: 0;
+}
+.catalog_foto_del 
+{
+z-index:9;
+}
+
+.thumb_small {
+  max-height: 65px;
+  max-width: 78px;
+}
+.catalog_ishot
+{
+height:30px;
+
+}
+
+#catimg
+{
+width:180px;
+max-height:257px;
+}
+.catalog_foto_del:hover,.catalog_foto_del_new:hover
+{
+cursor:pointer;
+}
+.tambah_brand,.tambah_cat
+{
+border-top:1px dotted grey;
+}
+/*end admin*/
+
+/*kategori*/
+
+.kat_action {
+position: absolute;
+right: 5px;
+text-align: right;
+width: 65px;
+display:inline-block;
+}
+.kat_judul {
+
+left: 5px;
+padding-left: 24px;
+position: absolute;
+display:inline-block;
+}
+.kat_item {
+background-color:#fefefe;
+ border: 1px solid #D3D3D3;
+  cursor: move;
+  height: 25px;
+  line-height: 25px;
+  padding: 5px 0;
+  position: relative;
+  width: 300px;
+  margin-top:5px;
+}
+.kat_item:before{content:'\f047';margin-left:5px;}
+ol, ul, li {
+    list-style: none outside none;
+}
+.attribut_value,#data_attribut_type
+{
+display:none;
+}
+/*end kategory*/
+
+.save_attribut {
+  margin-top: 46px;
+}
+.catalog_label
+{
+font-weight:bold;
+}
+.atttribut_separator {
+    height: 26px;
+    background-color: #e5e5e4;
+    padding: 10px 0px 0px 10px;
+	font-weight:bold;
+}
+.catalog_ishot {
+    height: 39px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	
+}
+.catalog_ishot >div {
+    padding: 10px;
+}
+.catalog_ishot >div>input {
+    display: block;
+    float: left;
+}
+
+
+
+/*-----------*/
+.product-search #keyword {
+ /* width: 326px; */
+}
+#searchbybrand,#searchbycat
+{
+/* width:200px; */
+}
+/* .form-horizontal > div span:first-child {
+  display: inline-block;
+  padding: 3px;
+  width: 187px;
+
+}*/
+.form-horizontal {
+  margin: 0 0 0px;
+}
+.input_foto_tambahan
+{
+clear:both;
+}
+.setfotoutama 
+{
+  height: 100px;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  z-index: 1;
+   text-align:center;
+  vertical-align:center;
+}
+.setfotoutama:hover > .labelsetutama
+{
+  display:block;
+  height: 100px;
+  width: 100px;
+  color:white;
+  background-color:rgba(0,0,0,0.3);
+  line-height:100px;
+}
+.setfotoutama input[type="radio"] 
+{
+  position: absolute;
+  display:none;
+  
+}
+.setfotoutama input[type="radio"]:checked  + .labelsetutama + .tandautama 
+{
+background-image:url("../../../images/check.png");
+height:24px;
+width:24px;
+display:block;
+background-repeat:no-repeat;
+position:absolute;
+bottom:0;
+right:30px;
+}
+.tandautama 
+{
+display:none;
+}
+.labelsetutama
+{
+display:none;
+}

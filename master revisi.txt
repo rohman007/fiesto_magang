@@ -1,0 +1,77 @@
+diskon merah lebih cerah samakan template
+Backend Berat tampilan tidak karuan
+Backend photo produk bisa klik samakan kayak pensil (edit)
++ http://fiesto.off/iwd/masterpaket/cart/review_order Judul nama produk  P besar
++ http://fiesto.off/iwd/masterpaket/cart/review_order Judul ongkos kirim  K besar
++ http://fiesto.off/iwd/masterpaket/cart/review_order JNE YES Gubeng,KOTA SURABAY diatas total ganti Ongkos Kirim
++ http://fiesto.off/iwd/masterpaket/cart/review_order Table ongkir dibawah ganti judul Informasi Pengiriman
++ http://fiesto.off/iwd/masterpaket/cart/review_order Table Data Pembayaran dibawah ganti judul Informasi Pembayaran
++ http://fiesto.off/iwd/masterpaket/cart/review_order I have read and agreed with the  Terms & Conditions ganti Saya telah membaca dan menyetujui syarat dan ketentuan
+http://fiesto.off/iwd/masterpaket/cart/review_order This field is required ganti Isian ini bersifat wajib
+http://fiesto.off/iwd/masterpaket/cart/review_order Complete Order ganti Selesaikan Pesanan
+http://fiesto.off/iwd/masterpaket/cart/order Front
+========================
+Terima kasih telah bertransaksi di toko kami. 
+
+Silakan melakukan pembayaran sejumlah 
+[harga total]
+ke:
+Mandiri Surabaya
+1234567890123
+Mr Wola Wola
+
+<ul>
+<li>No. Transaksi: []</li>
+<li>Tgl. Transaksi: []</li>
+<li>Status Transaksi: http://fiesto.off/iwd/masterpaket/order/view/1418090019</li>
+<li>Upload Bukti Pembayaran: http://fiesto.off/iwd/masterpaket/order/confirm_payment/1418090019</li>
+</ul>
+
+Detail transaksi telah kami kirimkan ke [email customer].
+=========================
+
+Customer email 
+=========================
+Subject: Transaksi Berhasil (#[no order])
+
+Terima kasih telah bertransaksi di toko kami. 
+
+Silakan melakukan pembayaran sejumlah 
+[harga total]
+ke:
+Mandiri Surabaya
+1234567890123
+Mr Wola Wola
+
+<ul>
+<li>No. Transaksi: []</li>
+<li>Tgl. Transaksi: [7 September 2018 09:43]</li>
+<li>Status Transaksi: http://fiesto.off/iwd/masterpaket/order/view/1418090019</li>
+<li>Upload Bukti Pembayaran: http://fiesto.off/iwd/masterpaket/order/confirm_payment/1418090019</li>
+</ul>
+
+[table pemesanan]
+==========================
+Admin email subject Order Baru (#[no order]), isi table pemesanan
+
+Fungsikan $sendername
+
+
+http://fiesto.off/iwd/masterpaket/order/view/1418090019 Judul besar(h1) Data Transaksi, status dibuat menonjol
+
+Samakan tampilan semua table order email, front end, konfirmasi dll
+
+http://fiesto.off/iwd/masterpaket/order/confirm_payment/1418090019#confirmPayment Judul Upload Bukti Pembayaran, form image saja, form yg lama comment saja
+
+Istilah pesanan dan pembelian di Email ganti Transaksi
+
+http://fiesto.off/iwd/masterpaket/order/history total harga + ongkir saja
+
+Konfirmasi pembayaran user tidak usah di email
+
+Email order terkirim ganti indo
+Kelola order, status order terbaru ganti order baru
+Rohman 
+-Tambah langkah pengecekan di excel
+Next demo voucher, order handling(restrukturisasi menu kelola)
+

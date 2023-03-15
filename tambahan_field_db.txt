@@ -1,0 +1,64 @@
+# Cart && Order
+
+ALTER TABLE `sc_transaction`
+ADD `kodevoucher` varchar(15) NOT NULL,
+ADD `tipe_voucher` int NOT NULL AFTER `kodevoucher`,
+ADD `nominal_voucher` decimal(13,2) NOT NULL AFTER `tipe_voucher`,
+ADD `tglstart_voucher` date NOT NULL AFTER `nominal_voucher`,
+ADD `tglend_voucher` date NOT NULL AFTER `tglstart_voucher`,
+ADD `is_onetime` tinyint(1) NOT NULL AFTER `tglend_voucher`,
+ADD `packingvalue` decimal(13,2) NOT NULL AFTER `is_onetime`,
+ADD `insurancevalue` decimal(13,2) NOT NULL AFTER `packingvalue`,
+ADD `bank_tujuan` varchar(50) NOT NULL AFTER `insurancevalue`,
+ADD `bank_asal` varchar(50) NOT NULL AFTER `bank_tujuan`,
+ADD `atas_nama` varchar(100) NOT NULL AFTER `bank_asal`,
+ADD `no_rekening` varchar(20) NOT NULL AFTER `atas_nama`,
+ADD `nominal` decimal(13,2) NOT NULL AFTER `no_rekening`,
+ADD `tanggal_konfirmasi` date NOT NULL AFTER `nominal`;
+
+ALTER TABLE `sc_transaction`
+ADD `is_dropship` tinyint(1) NOT NULL,
+ADD `is_del` tinyint(1) NOT NULL AFTER `is_dropship`,
+ADD `useragent` text NOT NULL AFTER `is_del`;
+
+ALTER TABLE `sc_transaction`
+ADD `kursusdidr` varchar(10) NOT NULL;
+
+
+# Catalog
+ALTER TABLE `catalogdata`
+ADD `lazada` varchar(255) NOT NULL,
+ADD `tokopedia` varchar(255) NOT NULL AFTER `lazada`,
+ADD `bukalapak` varchar(255) NOT NULL AFTER `tokopedia`,
+ADD `shopee` varchar(255) NOT NULL AFTER `bukalapak`;
+
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_TOKOPEDIA', 'Tokopedia', 'Tokopedia', 'catalog');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_BUKALAPAK', 'Bukalapak', 'Bukalapak', 'catalog');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_LAZADA', 'Lazada', 'Lazada', 'catalog');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_SHOPEE', 'Shopee', 'Shopee', 'catalog');
+
+# Config
+INSERT INTO `config` (`name`, `value`, `namatampilan`, `modul`, `tipeform`, `maxlength`) VALUES
+('cfg_per_page_video',	'40',	'Max tampilan video',	'video',	'text;3',	'3'),
+('orderconfirmation',	'<p>Got It! We\'ve Received your Payment And Starting to Prepare it Now.</p>\r\n<p>Thank you so much for Shopping with Us.</p>\r\n<p>once We ship Your Order we\'ll Send You An Email and Tracking Number</p>',	'Order Confirmation',	'order',	'textarea;60;10;usetiny',	'2000'),
+('ordershipped',	'<p>Good News,</p>\r\n<p>Your order has shipped and is on&nbsp;a way.</p>\r\n<p>Here is your tracking number = #noresi&nbsp;</p>\r\n<p>You can trace your tracking number at&nbsp;<a href=\"http://cekresi.com\">cekresi.com</a>.</p>\r\n<p>For order status click&nbsp;#orderdetail</p>\r\n<p>We\'ve glad to receive your feedback.</p>\r\n<p>Questions?</p>\r\n<p><a href=\"mailto:Line@,\">Line@</a>,</p>\r\n<p>#linkthankyoupage</p>\r\n<p>or send us an email&nbsp;<a href=\"mailto:info@fiesto.com\">info@fiesto.com</a></p>',	'Order Shipped',	'order',	'textarea;60;10;usetiny',	'2000');
+
+# Translation
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_ORDERSHIPPED', 'Your Order has Shipped', 'Your Order has Shipped', 'order');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_VIEWORDERDETAIL', 'View order detail', 'View order detail', 'order');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_DETAILCONFIRMATIONORDERDETAIL', 'Detail Konfirmasi Pembayaran Pesanan#', 'Detail Konfirmasi Pembayaran Pesanan#', 'order');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_COURIERNAMEJNT', 'J&T', 'J&T', 'cart');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`)
+VALUES ('_COURIERNAMETIKI', 'Tiki', 'Tiki', 'cart');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+('_CHANGESTATUSTOADMIN',	'Untuk melakukan ubah status pesanan ini, silakan klik link berikut',	'Untuk melakukan ubah status pesanan ini, silakan klik link berikut',	'order');
+INSERT INTO `translation` (`konstanta`, `asli`, `terjemahan`, `modul`) VALUES
+('_CHANGESTATUS',	'Ubah Status',	'Ubah Status',	'order');

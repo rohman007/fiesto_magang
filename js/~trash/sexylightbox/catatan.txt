@@ -1,0 +1,2 @@
+http://www.coders.me/lang/en/web-html-js-css/javascript/sexy-lightbox-2
+Bisa HTML content (bisa modal, dll)

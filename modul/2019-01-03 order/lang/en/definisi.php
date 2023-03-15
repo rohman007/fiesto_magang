@@ -1,0 +1,111 @@
+<?php
+define(_FULLNAME,"Full Name");
+define(_EMAIL,"Email");
+define(_ADDRESS,"Address");
+define(_CITY,"City");
+define(_STATE,"State");
+define(_COUNTRY,"Country");
+define(_ZIP,"ZIP");
+define(_TELEPHONE,"Telephone");
+define(_CELLPHONE1,"Mobile");
+define(_CELLPHONE2,"Mobile #2");
+define(_NAMABANKPENGIRIM,"Bank");
+define(_REKBANKPENGIRIM,"Account No.");
+define(_JUMLAHTRANSFER,"Amount Transferred");
+define(_WAKTUTRANSFER,"Transfer Date");
+define(_CARDVERIFICATIONNUMBER,"Card Verification Number");
+define(_EXPIRATIONDATE,"Expiry Date");
+define(_CARDNUMBER,"Credit Card Number");
+define(_CARDTYPE,"Credit Card Card Type");
+define(_FNAME,"First Name");
+define(_LNAME,"Last Name");
+define(_BARANGDIPESAN,"Item List");
+define(_KEMBALI,"Back");
+define(_DAFTARMEMBER,"Member List");
+define(_SUBMIT,"Submit");
+define(_PAYMENTTO,"Pay to");
+define(_HARGASATUAN,"Unit Price");
+define(_JUMLAH,"Amount");
+define(_SUBTOTALHARGA,"Subtotal");
+define(_TOTALHARGA,"Total");
+define(_POSTAGE,"Shipping");
+define(_BELANJALAGI,"Continue Shopping");
+define(_CHECKOUT,"Checkout");
+define(_EDITDETAILS,"Edit Detail");
+define(_EDITTROLI,"Edit Cart");
+define(_WRONGCODE,"Wrong Code");
+define(_ORDERCODE,"Order Code");
+define(_PENERIMA,"Recipient");
+define(_STATUS,"Status");
+define(_TRACKYOURORDER,"Your Order");
+define(_BERAT,"Weight");
+define(_BIAYAONGKIR,"Shipping Cost");
+define(_PAYNOW,"Pay Now");
+define(_PERSONALBANKACCOUNTNAME,"Name");
+define(_NAMABANK,"Bank");
+define(_CONFIRMPAYMENT,"Paymen Confirmation");
+define(_DOWNLOADTRANSACTION,"Export Transactions");
+define(_NOHISTORYFOUND,"No transaction history found");
+
+define(_SENT,"Shipped");
+define(_WAITINGTOSEND,"Waiting for shipment");
+define(_WAITINGFORPAYMENT,"Waiting for payment");
+define(_ALL,"All");
+
+define(_DETAILS,"Details");
+define(_KATEGORI,"Categories");
+define(_TOTALTRANSAKSI,"Transaction Amount");
+define(_CARAPEMBAYARAN,"Payment Method");
+define(_JUMLAHPEMBAYARAN,"Amount Paid");
+define(_NOITEM,"The shopping cart is empty");
+define(_NONE,"None");
+define(_PERSONALDETAILS,"Buyer Data");
+define(_PERSONALDETAILSR,"Recipient Data");
+define(_CONFIRMORDER,"Order Confirmation");
+define(_REQUIRED,"is required");
+define(_ORDERPROCESS,"Orders in certain dates");
+define(_LISTORDERPROCESSPAY,"Order to be verified");
+define(_LISTORDERPROCESSSENT,"Order to be delivered");
+define(_HISTORY,"Search transactions");
+define(_KEYWORD,"Keyword");
+//define(_TANGGALPESAN,"Tanggal Pemesanan");
+define(_NAMA,"Name");
+define(_STATUS,"Transaction Status");
+define(_NOTE,"Notes");
+define(_NOMOR,"No.");
+define(_PRODUCT,"Product");
+define(_SEND,"Send");
+define(_UBAHSTATUS,"Change Status");
+define(_EXPORTTOEXCEL,"Export to Excel");
+define(_PRINT,"Print");
+define(_NOPENGIRIMAN,"Airway Bill Number");
+
+define(_NOMEMBERHISTORY,"No transaction history found");
+define(_NOTRANSACTION,"No transaction found");
+
+define(_CLEANSUCCESS,"Data clean-up success");
+define(_CLEANFAIL,"Data clean-up failed");
+define(_CLEAN,"Clean data order");
+
+define(_DELPAGE,"Clean data order");
+
+define(_ORDERCODE,"Transaction Code");
+define(_TANGGALPESAN,"Order Date");
+define(_TANGGALBAYAR,"Payment Date");
+define(_STATUS,"Status");
+
+define(_ORDERSTATUS,"Order Status");
+define(_ORDERDETAILS,"Order Details");
+define(_CURRENTORDERTITLE,"Transaction Code");
+define(_ORDERDATE,"Tanggal Transaksi");
+define(_RECEIVERDETAILS,"Recipient Details");
+define(_PAYMENTINFO,"Payment Information");
+define(_QUANTITY,"Quantity");
+define(_PRODUCTNAME,"Product Name");
+define(_PRICE,"Price");
+define(_LINECOST,"Amount");
+define(_GRANDTOTAL,"Total");
+define(_LATESTUPDATE,"Latest Update");
+define(_SEARCHDESC,"Enter <b>buyer name</b> or <b>transaction code</b>");
+
+?>

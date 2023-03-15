@@ -1,0 +1,74 @@
+.box {
+    background: none repeat scroll 0 0 #fbfbfb;
+    border: 1px solid #d6d4d4;
+    line-height: 23px;
+    margin: 0 0 16px;
+    padding: 14px 18px 13px;
+}
+.page-subheading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+    padding: 0 0 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d6d4d4;
+    color: #555454;
+}
+.box .more {
+    margin-bottom: 15px;
+}
+#checkout_wrapper
+{
+width:500px;
+height:200px;
+}
+#checkout_member
+{
+width:49%;
+height:100%;
+float:left;
+border: 2px solid #CECECE;
+border-left:none;
+}
+#checkout_nonmember
+{
+width:49%;
+height:100%;
+border: 2px solid #CECECE;
+float:left;
+}
+.registerlink
+{
+margin-top:20px;
+}
+/*#webmember_register
+{
+width:100%;
+}
+.button{
+	border: 1px solid #DA7100;
+	padding: 3px 5px;
+	color: white;
+	font-weight: bold;
+	background: #6e6e6e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFCB63), to(#FF9523));
+	background: -moz-linear-gradient(center top , #FFCB63 0%, #FFB92E 5%, #FFA528 50%, #FF9523 99%, #FF9523) repeat scroll 0 0 transparent;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCB63', endColorstr='#FF9523');	
+}
+.button:hover
+{
+cursor:pointer;
+text-decoration:none;
+color:white;
+background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}*/
+
+.checkout_content
+{
+padding:5px;
+}
+

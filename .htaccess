@@ -1,0 +1,34 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+RewriteRule ^(.*)$ index.php?xparam=$1	[QSA,L]
+</IfModule>
+
+<IfModule mod_php5.c>
+	php_value upload_max_filesize 20M
+	php_value post_max_size 20M
+	php_flag magic_quotes_gpc Off
+	php_value magic_quotes_gpc Off
+	php_value date.timezone "Asia/Jakarta"
+	php_flag display_errors off
+</IfModule>
+
+php_flag display_errors off
+
+#<IfModule mod_security.c>
+#    SecFilterEngine Off
+#</IfModule>
+
+#https://stackoverflow.com/questions/12928360/how-can-i-disable-mod-security-in-htaccess-file
+<IfModule mod_security.c>
+  SecRuleEngine Off
+  #SecFilterInheritance Off
+  SecFilterEngine Off
+  SecFilterScanPOST Off
+  #SecRuleRemoveById 300015 3000016 3000017
+</IfModule>

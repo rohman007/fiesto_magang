@@ -1,0 +1,10 @@
+<?php 
+session_start(); 
+/*
+unset($_SESSION['xwdshop_member_userid']);
+unset($_SESSION['xwdshop_member_username']);
+unset($_SESSION['s_level']);
+*/
+session_destroy(); 
+header("Location:index.php");
+?>

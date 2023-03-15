@@ -1,0 +1,1 @@
+<?php	define(_UPLOADSWF,"Upload SWF file");?>

@@ -1,0 +1,12 @@
+************************************************************************************************************
+
+(1)
+Modul ini hanya mengaktifkan sistem membership (registrasi, aktivasi, dll).
+Modul terkait membership harus diinstall terpisah. Misal agar news ada yang member only dan tidak, maka news yang dipasang harus news yang dibuat khusus untuk kepentingan itu.
+Jika modul ini dipasang, modul lain tidak menyesuaikan, maka tidak ada efeknya.
+
+************************************************************************************************************
+
+(2) /kelola/urasi.php
+
+$webmemberfrom = "info@fiesto.com";	//email from saat mengirimkan kode aktivasi dan alert2 terkait lainnya

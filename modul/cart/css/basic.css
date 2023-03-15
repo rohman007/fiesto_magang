@@ -1,0 +1,563 @@
+.ongkir_citynotfound {
+    background-color: #FFFFFF;
+    bottom: 0;
+    padding-top: 9px;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+table#widget_list_order {
+    width: 100%;
+	margin-bottom:10px
+}
+table#widget_list_order td{
+padding:5px 0;border-bottom:1px solid #eee}
+table#widget_list_order td:first-child{
+    padding-right:10px
+}
+tbody#postagetablebody td:last-child a {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.rekening_logo > img {
+  height: 54px;
+}
+.rekening_info {
+  padding: 5px;
+  vertical-align: top;
+}
+.rekening_logo {
+  padding: 5px;
+}
+.css_quantity {
+    margin-bottom: 6px;
+    text-align: center;
+	width:120px;
+}
+a#qtyminus {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 23px;
+	line-height:20px;
+    display: inline-block;
+    height: 23px;
+    text-align: center;
+    color: #fff;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+a#qtyminus i {
+    line-height: 23px;
+    margin: 0;
+    font-size: 10pt;
+}
+.css_quantity .qty-trigger {
+    /* background: #ddd; */
+    width: 35px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+}
+.css_quantity .qty-trigger i {
+    margin: 0;
+    padding: 0;
+}
+.cart_quantity input.cart_quantity_input {
+    margin-bottom: 8px;
+    width: 85px;
+    margin: 0 auto 5px;
+    display: block;
+}
+span.lblcart_quantity_input {
+	box-shadow: -1px 3px 10px -2px #ccc;
+    height: 35px;
+	text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    width: 54px;
+    font-weight: bold;
+	background: #f1f1f1;
+}
+a#qtyplus {
+    border-radius: 50%;
+    line-height: 20px;
+    border: 1px solid #fff;
+    width: 23px;
+    display: inline-block;
+    height: 23px;
+    text-align: center;
+    color: #fff;
+    margin-left: 9px;
+    vertical-align: middle;
+}
+a#qtyplus i {
+    line-height: 23px;
+    margin: 0;
+    font-size: 10pt;
+    position: relative;
+    left: 1px;
+}
+.cart_quantity {
+    width: 150px;
+}
+th.cart_product {
+    width: 11%;
+}
+.senderisreceiver {
+    margin-bottom: 30px;
+}
+.checkout-form h4 {
+    border-bottom: 1px dotted;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 2px;
+}
+input[type=radio], input[type=checkbox] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    box-shadow: none;
+    position: relative;
+    top: 0;
+    margin-left: 4px !important;
+    margin-right: 5px !important;
+    width: 19px !important;
+    height: 19px;
+    vertical-align: bottom;
+}
+div#form-ongkir.hide_divx {margin-bottom:10px}
+.block-onkir-input{
+    padding-left: 0px;
+    margin-top: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 30px 0;
+	margin-bottom:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div#form-ongkir.hide_divx h4 {
+    font-size: 12pt;
+}
+table.list-ongkir {
+    position: relative;
+    margin-bottom: 30px;
+}
+.list-ongkir input[type="radio"] {
+    margin:  0 !important;
+}
+#checkout-form .biodatabawah,#checkout-review-termsandcond .biodatabawah {
+    margin-top: 50px;
+}
+label#terms-error {
+    position: absolute;
+    top: 100%;
+    margin: 0 0 0 5px;
+}
+label{
+    position:relative
+}
+input#cari-ongkir-kota-kab {
+    margin-top: 8px;
+}
+.block-postage {
+    padding-left: 0;
+}
+.cart-postage {
+    margin-top: 15px;
+}
+div#form-ongkir.hide_divx {
+    padding-left: 20px !important;
+    margin-top: 22px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.mfp-hide {
+  display: none !important; }
+ .cart-kupon {
+    text-align: right;
+    padding: 8px 8px 8px 14px;
+    float: right;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.cart-kupon label {
+    margin-right: 7px;
+    margin-bottom: 0;
+}
+.cart-kupon input.kodekupon {
+    vertical-align: middle;
+    padding: 7.5px 10px;
+    border: 0;
+    height: 37px;
+}
+.cart-kupon .more {
+    vertical-align: top;
+    padding: 9px 20px;
+    height: 37px;
+}
+.status_order {
+    padding-top: 5px;
+    float: right;
+    padding-right: 30px;
+	margin-bottom:15px
+}
+.status_order h2 {
+    margin-top: 0;
+    font-size: 12pt;
+	margin-bottom:14px;
+}
+.status_order p {
+    font-weight: bold;
+    color: #ffa500;
+}
+.data_order{margin-bottom:20px}
+.data_order h2 {
+    margin-top: 0;
+    font-size: 12pt;
+}
+.data_order td {
+    padding: 5px 50px 5px 0;
+}
+.data_order td:last-child {
+    font-weight: bold;
+}
+div#checkout-form,div#checkout-review-termsandcond {
+    background: #f3f3f3;
+	overflow:hidden;
+    color: #000;
+    padding: 30px;
+    margin: 0 -30px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+div#checkout-form table.list-order-product,div#checkout-review-termsandcond table.list-order-product {font-weight:bold;color:#444}
+div#checkout-form table.list-order-product thead,div#checkout-review-termsandcond table.list-order-product thead {
+}
+div#checkout-form table.list-order-product th,div#checkout-review-termsandcond table.list-order-product th {
+    background: #7a7a7a;
+    color: #fff;
+    border: 0;
+    padding: 22px 20px 22px 20px;
+    text-align: center;
+}
+div#checkout-form table.list-order-product td,div#checkout-review-termsandcond table.list-order-product td{
+    padding: 20px 20px;
+	border-bottom:1px solid #aaa
+}
+tr.noborder td {
+    border: 0 !important;
+    padding-bottom: 6px !important;
+}
+/* tr.noborder.total_order td:first-child {padding-right:100px !important} */
+tr.noborder.total_order td {
+    background: #fff;
+    padding: 14px 20px !important;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 20px solid #f3f3f3 !important;
+    font-size: 16pt;
+	color:#000 !important;
+    font-weight: bolder;
+}
+div#checkout-form table.list-order-product td:first-child,div#checkout-review-termsandcond table.list-order-product td:first-child {
+    color: #999;
+}
+p.name_order {
+    font-weight: bold;
+    color: #666;
+    font-size: 15pt;
+	text-transform:capitalize;
+}
+.receive_data h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000;
+}
+.receive_data {
+    float: left;
+    color: #888;
+    padding-left: 30px;
+}
+.data-lain {
+    float: right;
+    color: #888;
+    padding-right: 30px;
+}
+.data-lain h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000;
+}
+.data-lain {
+    float: right;
+    color: #888;
+    padding-right: 30px;
+    min-width: 40%;
+}.ongkir_citynotfound {
+    background-color: #FFFFFF;
+    bottom: 0;
+    padding-top: 9px;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+tbody#postagetablebody td:last-child a {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.rekening_logo > img {
+  height: 54px;
+}
+.rekening_info {
+  padding: 5px;
+  vertical-align: top;
+}
+.rekening_logo {
+  padding: 5px;
+}
+.css_quantity {
+    margin-bottom: 6px;
+    text-align: center;
+    width: 120px;
+    display: inline-block;
+}
+th.cart_quantity {
+    text-align: center;
+    width: 290px !important;
+}
+
+form#confirm_payment {
+    background: #eee;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    padding: 30px 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+form#confirm_payment input[type=file] {
+    box-shadow: none;
+}
+form#confirm_payment .more {
+    margin-bottom: 30px;
+}
+th.cart_unit {
+    text-align: right;
+}
+th.cart_total {
+    text-align: right;
+}
+a#qtyminus {
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 23px;
+	line-height:20px;
+    display: inline-block;
+    height: 23px;
+    text-align: center;
+    color: #000;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+a#qtyminus i {
+    line-height: 23px;
+    margin: 0;
+    font-size: 10pt;
+}
+.css_quantity .qty-trigger {
+    /* background: #ddd; */
+    width: 35px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+}
+.css_quantity .qty-trigger i {
+    margin: 0;
+    padding: 0;
+}
+.cart_quantity input.cart_quantity_input {
+    margin-bottom: 8px;
+    width: 85px;
+    margin: 0 auto 5px;
+    display: block;
+}
+span.lblcart_quantity_input {
+	box-shadow: -1px 3px 10px -2px #ccc;
+    height: 35px;
+	text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    width: 54px;
+    font-weight: bold;
+	background: #f1f1f1;
+}
+table#cart_summary td {
+    vertical-align: middle;
+}
+p.product-name {
+    margin: 0;
+}
+a#qtyplus {
+    border-radius: 50%;
+    line-height: 20px;
+    border: 1px solid #000;
+    width: 23px;
+    display: inline-block;
+    height: 23px;
+    text-align: center;
+    color: #000;
+    margin-left: 9px;
+    vertical-align: middle;
+}
+a#qtyplus i {
+    line-height: 23px;
+    margin: 0;
+    font-size: 10pt;
+    position: relative;
+    left: 1px;
+}
+.cart_quantity {
+    width: 150px;
+}
+th.cart_product {
+    width: 11%;
+}
+.senderisreceiver {
+    margin-bottom: 30px;
+}
+.checkout-form h4 {
+    border-bottom: 1px dotted;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 2px;
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input[type=radio], input[type=checkbox] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    box-shadow: none;
+    position: relative;
+    top: 0;
+    margin-left: 4px !important;
+    margin-right: 5px !important;
+    width: 19px !important;
+    height: 19px;
+    vertical-align: bottom;
+}
+div#form-ongkir.hide_divx {
+    padding-left: 0px;
+    margin-top: 22px;
+}
+div#form-ongkir.hide_divx h4 {
+    font-size: 11pt;
+}
+table.list-ongkir {
+    position: relative;
+    margin-bottom: 30px;
+}
+.list-ongkir input[type="radio"] {
+    margin:  0 !important;
+}
+#checkout-form .biodatabawah,#checkout-review-termsandcond .biodatabawah {
+    margin-top: 50px;
+}
+label#terms-error {
+    position: absolute;
+    top: 100%;
+    margin: 0 0 0 5px;
+}
+label{
+    position:relative
+}
+input#cari-ongkir-kota-kab {
+    margin-top: 8px;
+    width: auto;
+    min-width: 280px;
+    max-width: 100%;
+}
+.block-postage {
+    padding-left: 0;
+}
+.cart-postage {
+    margin-top: 15px;
+}
+.list-ongkir-block {
+    padding: 0 15px;
+    width: 50%;
+}
+div#form-ongkir.hide_divx .list-ongkir {
+    padding-left: 0px !important;
+    margin-top: 14px;
+    max-height: 160px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+.mfp-hide {
+  display: none !important; }
+ .cart-kupon {
+    text-align: right;
+    padding: 8px 8px 8px 14px;
+    float: right;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.cart-kupon label {
+    margin-right: 7px;
+    margin-bottom: 0;
+}
+.list-ongkir label {
+    display: inline-block;
+	margin-bottom:0;
+    max-width: 100%;
+    margin-top: 13px;
+    font-weight: bold;
+}
+.cart-kupon input.kodekupon {
+    vertical-align: middle;
+    padding: 7.5px 10px;
+    border: 0;
+    height: 37px;
+}
+.cart-kupon .more {
+    vertical-align: top;
+    padding: 9px 20px;
+    height: 37px;
+}
+td.cart_unit span.price-now {
+    text-align: right !important;
+    font-size: 12pt;
+    font-weight: normal;
+    color: #000;
+}
+@media(max-width:767px){
+	.list-ongkir-block {
+		padding: 0 0px;
+		width: 100%;
+	}
+}

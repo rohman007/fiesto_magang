@@ -1,0 +1,41 @@
+To: raisila@mailinator.com
+Subject: Order baru
+Message: <h2>Status Pesanan</h2>
+<p>Menunggu konfirmasi pembayaran (Update terakhir: 13 Mei 2014 17:36)</p>
+<h2>Data Pesanan</h2>
+<table border="0">
+<tr><td>Kode Transaksi</td><td>:</td><td>F717E3900013</td></tr>
+<tr><td>Tanggal Transaksi</td><td>:</td><td>13 Mei 2014 16:35</td></tr>
+</table><br />
+<table border="1"><tr><th>Thumbnail</th><th>Nama produk</th><th>Harga</th><th>Banyak</th><th>Jumlah</th></tr><tr><td><img src="/images/none.gif" height="50px" class="thumb_small" ></td><td>Gucci Brown Havana Aviator Sunglasses</td><td align="right">700.000</td><td align="right">1</td><td align="right">700.000</td></tr><tr><td colspan="4" align="right">(Total </td><td align="right">700.000</td></tr></table><h2>Data Pemesan</h2>
+<table border="0">
+<tr><td>Nama Lengkap</td><td>:</td><td>roemly</td></tr>
+<tr><td>Email</td><td>:</td><td>raisila@mailinator.com</td></tr>
+<tr valign="top"><td>Alamat</td><td>:</td><td>kenanga</td></tr>
+<tr><td>Provinsi</td><td>:</td><td></td></tr>
+<tr><td>Kota</td><td>:</td><td>bangkalan</td></tr>
+<tr><td>Kode Pos</td><td>:</td><td></td></tr>
+<tr><td>Telepon</td><td>:</td><td>08179388230</td></tr>
+<tr><td>Telepon 2</td><td>:</td><td></td></tr>
+<tr><td>Telepon 3</td><td>:</td><td></td></tr>
+</table>
+<h2>Data Penerima</h2>
+<table border="0">
+<tr><td>Nama Lengkap</td><td>:</td><td>roemly</td></tr>
+<tr><td>Email</td><td>:</td><td>raisila@mailinator.com</td></tr>
+<tr valign="top"><td>Alamat</td><td>:</td><td>kenanga</td></tr>
+<tr><td>Provinsi</td><td>:</td><td></td></tr>
+<tr><td>Kota</td><td>:</td><td>bangkalan</td></tr>
+<tr><td>Kode Pos</td><td>:</td><td></td></tr>
+<tr><td>Telepon</td><td>:</td><td>08179388230</td></tr>
+<tr><td>Telepon 2</td><td>:</td><td></td></tr>
+<tr><td>Telepon 3</td><td>:</td><td></td></tr>
+</table>
+<h2>Data Pembayaran</h2>
+<table class='rekening'><tr><td class='rekening_logo'><img src='/logo-bank-mandiri-300x131-2-1.jpg' alt='Mandiri'></td><td class='rekening_info'>
+				  Mandiri Surabaya<br/>
+				  No. Rek 1234567890123<br/>
+				  a/n Mr Wola Wola<br/>
+				  </td></tr></table>
+From: 
+Reply To: 1@cak.com

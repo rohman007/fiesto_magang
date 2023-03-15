@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1000" data-name="Group 1000" transform="translate(-458 -822)">
+    <g id="chat-24px" transform="translate(458 822)">
+      <path id="Path_514" data-name="Path 514" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_515" data-name="Path 515" d="M20,2H4A2,2,0,0,0,2.01,4L2,22l4-4H20a2.006,2.006,0,0,0,2-2V4A2.006,2.006,0,0,0,20,2ZM6,9H18v2H6Zm8,5H6V12h8Zm4-6H6V6H18Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

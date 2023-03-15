@@ -1,0 +1,76 @@
+<?php
+define(_PRODUCT,"Product");
+define(_NOPROD,"No product found.");
+define(_DELPROD,"Del product");
+define(_EDITPRODUCT,"Edit product");
+define(_ADDPRODUCT,"Add product");
+define(_FRMPICEDITNOTE,"(Leave empty you don't update the image)");
+define(_SLIDESHOW,"Slide show");
+define(_HAVECHILD,"Please delete all subdirectories before you delete this parent category.");
+define(_SUBCATOF,"Subcategory of");
+define(_FILETITLE,"Title");
+define(_FILEDESC,"Description");
+define(_SPECIALCASE,"Special");
+define(_NOSPECIAL,"Not special");
+define(_SPECIALPRICE,"Special offer");
+define(_BESTSELLER,"Best Sellers");
+define(_NEWARRIVAL,"New arrival");
+
+define(_BRAND,"Brand");
+define(_NOBRAND,"No brand");
+
+define(_UPLOADZIP,"Upload ZIP");
+define(_NOPICSONZIP,"No images in the uploaded ZIP file, or the images are in the folders. The system doesn't process folders and non-image files.");
+define(_UPLOAD,"Upload");
+
+define(_KETLUAR,'Summary');
+define(_KETDALAM,'Details');
+define(_CURRENCY,'Currency');
+define(_NORMALPRICE,'Normal Price');
+define(_DISCOUNT,'Discount');
+define(_TAG,'Tag');
+define(_WEIGHT,'Weight (lbs)');
+
+define(_BULKEDIT,'Bulk edit');
+define(_ISPROMO,'Promo (P)');
+define(_ISNEW,'New (B)');
+define(_ISSOLD,'Sold Out (SO)');
+define(_ISBEST,'Best selling (L)');
+define(_HARGA1,'Gold Price');
+define(_HARGA2,'Silver Price');
+define(_HARGA3,'Price 3');
+define(_HARGA4,'Price 4');
+define(_SIZE,'Size');
+define(_STOK,'Stock');
+define(_TAMBAHUKURAN,'(+) Add a size');
+define(_THUMBNAIL,'Foto');
+define(_KETERANGAN,'Description');
+define(_FOTOUTAMA,'The main photo');
+define(_FOTOTAMBAHAN,'Additional Photos');
+define(_TAMBAHFOTO ,'(+) Add image');
+define(_TAMBAHKATEGORI ,'(+) Add category');
+define(_TAMBAHMEREK ,'(+) Add brand');
+define(_SUBPARENT ,'sub from');
+define(_TOP,'Main Category (none)');
+define(_NUM,'No.');
+define(_HARGAJUAL,'Selling Price');
+define(_DISKON,'Discount');		
+define(_ACTION,'Action');
+define(_PILIHCATEGORY,'Select a category');
+define(_PILIH,'Choose');
+define(_ADDPRODUCT,'Add product');
+define(_ATTRIBUTTAMBAHAN,'Additional attributes');
+define(_NAMAATTRIBUT,'Attribute name');
+define(_JENISATTRIBUT,'Type');
+define(_DETAIL,'Details');
+define(_LISTPRODUCT,'Product List');
+define(_KATEGORI,'Category');
+define(_NOPRODUCT,'No products');
+define(_FOTOADD,'Add Photo');
+define(_ALLCATEGORY,'All Categories');
+define(_ALLBRAND,'All brands');
+define(_BROWSEBYCATEGORY,'Show by category');
+define(_BROWSEBYBRAND,'Show by brand');
+define(_ADDCATEGORY,"Add Category");
+define(_SKU, "SKU");
+?>

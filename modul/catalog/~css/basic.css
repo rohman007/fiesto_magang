@@ -1,0 +1,38 @@
+/* Widget Accordion */
+#cssmenu {
+  box-sizing: border-box;
+  padding: 8px 8px 0;
+}
+#cssmenu li a,#catalogwidget a {
+    color: #666;
+    font-size: 11pt;
+    text-transform: uppercase;
+	text-decoration:none;
+}	
+#cssmenu li ul a,#catalogwidget ul a {
+    text-transform: capitalize;
+}
+.open .down,#cssmenu a:hover{color:#5F3100;text-decoration:none;}
+#cssmenu li ul a:hover{color:#cbba75;}
+ul.has-sub{padding-left:15px;display:none;margin-bottom:10px;}
+
+a .down {
+    cursor: pointer;
+}
+#menuleft.column {
+    width: 100%;
+}
+#cssmenu a {
+    display: block;
+}
+#cssmenu a span {
+    display: block;
+}
+li.has-sub {
+    background: url("images/+.png") no-repeat scroll 100% 4px rgba(0, 0, 0, 0);
+	text-align:left;
+}
+#cssmenu li ul li {
+  list-style-type: circle;
+  margin:3px 0 3px 14px;
+}
