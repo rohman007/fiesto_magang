@@ -41,6 +41,7 @@ h3 {
     font-size: 30px;
     color: white;
     font-family: 'biuti';
+    margin-top: 2rem;
 }
 
 #slogans {
@@ -1165,6 +1166,7 @@ div#call-block h2 {
 /*SLIDE*/
 div#slide-home img {
     width: 100%;
+    height: 100vh;
 }
 
 div#slide-home {
@@ -1198,12 +1200,11 @@ div#content-slide .container {
 }
 
 div#content-slide h1 {
-    /* font-size: 22pt; */
-    font-weight: 600;
     color: #fff;
     /* margin: 0; */
-    font-size: 31pt;
-    line-height: 1.2;
+    font-size: 60pt;
+    line-height: 0.8;
+    font-family: 'ponts';
 }
 
 #slide-home .owl-item {
