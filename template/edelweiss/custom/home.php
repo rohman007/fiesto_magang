@@ -83,7 +83,7 @@ include $cfg_app_path . '/modul/contact/urasi.php';
 					<?php echo $template->content('Maps_teks');?>
 				</div>
 		</div>
-
+ 
 		<div id="hiddendiv" class="content-wrapper">
 		<div class="kotakkecilnone text-center">
 				<a class="navbar-brand-footer" href="<?php echo $cfg_app_url ?>"><img src="<?php echo $template->image_url('logo');?>" alt="Logo"></a>
@@ -105,7 +105,7 @@ include $cfg_app_path . '/modul/contact/urasi.php';
 					<div class="col-md-3">
 						<img src="<?php echo $template->image_url('galery_Image1');?>">
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3"> 
 						<img src="<?php echo $template->image_url('galery_Image2');?>">
 					</div>
 					<!-- <div class="col-md-2">
