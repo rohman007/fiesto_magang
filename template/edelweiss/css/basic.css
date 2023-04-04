@@ -58,14 +58,24 @@ h3 {
 }
 
 #produk {
-    padding: 65px 0;
+    padding: 75px 50px;
     background-color: rgb(255, 255, 255);
 }
 
+.judul {
+    padding: 0 55px;
+}
+
+.col-sm-12.col-sm-6 {
+    padding: 0 50px;
+}
+
+.col-sm-12.col-sm-6.flex-xs-column-reverse.d-flex.flex-wrap {
+    padding: 0 50px;
+}
+
 .satu img {
-    width: 90%;
-    margin-top: 75px;
-    margin-bottom: 10px;
+    width: 100%;
 
 }
 
@@ -83,16 +93,12 @@ h3 {
 
 }
 
-.judul {
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-}
-
 .judul h1 {
     text-align: justify;
     text-transform: uppercase;
     font-size: 55px;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 .judul p {
@@ -100,7 +106,6 @@ h3 {
 }
 
 .tentang {
-    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -111,7 +116,9 @@ h3 {
 }
 
 .tentang h1 {
-    font-size: 45px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 55px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     color: #333;
@@ -119,18 +126,19 @@ h3 {
 }
 
 .dua img {
-    width: 90%;
+    width: 100%;
+    margin-top: 75px;
 }
 
 .tiga img {
     margin-top: 75px;
-    width: 90%;
+    width: 100%;
 
 }
 
 .lima img {
     margin-top: 75px;
-    width: 90%;
+    width: 100%;
 }
 
 #menuss {
@@ -197,7 +205,7 @@ h3 {
 
 .kotakkecilnone {
     padding: 3rem;
-    background-color: rgb(50, 36, 36);
+    background-color: #352e28;
     color: white;
     display: none;
 }
@@ -212,7 +220,7 @@ h3 {
 }
 
 #bawah {
-    background-color: rgb(50, 36, 36);
+    background-color: #352e28;
     padding: 30px 0;
 }
 
@@ -227,6 +235,10 @@ h3 {
 .hiddendiv {
     display: none;
 }
+
+/* .mobile-hidden {
+    height: 100vh;
+} */
 
 
 
@@ -727,7 +739,6 @@ a.link-more {
     font-weight: 600;
     border-radius: 0;
     padding: 10px 30px;
-    margin-top: 15px;
     display: inline-block;
     font-size: 12pt;
     /* border-right: 8px solid #999; */
@@ -1167,7 +1178,6 @@ div#call-block h2 {
 /*SLIDE*/
 div#slide-home img {
     width: 100%;
-    height: 100vh;
 }
 
 div#slide-home {
@@ -1835,6 +1845,7 @@ div#about-home:before {
 }
 
 @media(min-width:768px) {
+
     div#slide-story>div {
         padding: 0 10px;
     }
@@ -2143,7 +2154,53 @@ div#about-home>div:first-child {
     margin-bottom: 15px
 }
 
+@media(max-width:768px) {
+    #produk {
+        padding: 75px 20px;
+    }
+
+    .judul {
+        padding: 0 20px;
+    }
+
+    .judul h1 {
+        text-align: justify;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+    }
+
+    .dua img {
+        width: 100%;
+
+    }
+
+    .lima img {
+        width: 100%;
+    }
+
+    .tiga img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .satu img {
+        width: 100%;
+
+    }
+
+    .col-sm-12.col-sm-6.flex-xs-column-reverse.d-flex.flex-wrap {
+        padding: 20px;
+    }
+
+    .col-sm-12.col-sm-6 {
+        padding: 20px;
+    }
+}
+
 @media(max-width:767px) {
+
     .banner-thumbnail {
         position: relative;
         margin-bottom: 23px;
@@ -2175,8 +2232,7 @@ div#about-home>div:first-child {
     }
 
     div#content-slide h1 {
-        font-size: 60px;
-        padding: 0px 15px 0 0;
+        font-size: 50px;
     }
 
     .tvideo .youtubevideo {
@@ -2806,8 +2862,8 @@ div#about-home>div:first-child {
     }
 
     #header-site a.navbar-brand {
-        max-width: calc(100% - 60px);
-        padding: 12px 10px;
+        max-width: calc(100% - -100px);
+        padding: 12px 55px;
         position: relative;
         z-index: 2;
     }
@@ -2815,6 +2871,12 @@ div#about-home>div:first-child {
     .navbar-brand>img {
         display: block;
         height: 55px;
+    }
+}
+
+@media (max-width:629px) {
+    .col-sm-12.col-sm-6 {
+        padding: 0;
     }
 }
 
@@ -2828,12 +2890,42 @@ div#about-home>div:first-child {
         font-size: 15px;
     }
 
+    .judul {
+        padding: 0;
+    }
+
     .judul h1 {
         font-size: 45px;
     }
 
+    .col-sm-12.col-sm-6 {
+        padding: 0;
+    }
+
+    .col-sm-12.col-sm-6.flex-xs-column-reverse.d-flex.flex-wrap {
+        padding: 0;
+    }
+
+    .tentang {
+        margin: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-content: flex-start;
+        width: 100%;
+        align-items: flex-start;
+    }
+
     #menuss h1 {
-        font-size: 20px;
+        word-spacing: 2px;
+        font-size: 35px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: white;
+        padding: 0 56px;
     }
 
     #menuss p {
@@ -2842,6 +2934,10 @@ div#about-home>div:first-child {
 
     .kotakkecilnone {
         display: block;
+    }
+
+    .kotakkecilnone P {
+        margin-top: 1rem;
     }
 
     .kotakkecil {
@@ -2859,6 +2955,30 @@ div#about-home>div:first-child {
     .d-flex {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #produk {
+        padding: 50px 50px;
+    }
+
+    .dua img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .lima img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .tiga img {
+        width: 100%;
+
+    }
+
+    .satu img {
+        width: 100%;
+        margin-top: 50px;
     }
 
 }
