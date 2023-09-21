@@ -1686,13 +1686,13 @@ if ($action=='list' or $action==''  or $action=='search') {
 	$keyword=strip_tags($keyword);
 	$r_keyword=preg_split("/[\s,]+/",$keyword);
 
-	$sc_field="";
-	if(count($sc1)>0) {
-		foreach($sc1 as $label =>$name) {
-			$sc_field[]=$name;
-		}
-		$sc_field=",".join(",",$sc_field);
-	}
+	// $sc_field="";
+	// if(count($sc1)>0) {
+		// foreach($sc1 as $label =>$name) {
+			// $sc_field[]=$name;
+		// }
+		// $sc_field=",".join(",",$sc_field);
+	// }
 
 
 	$sql  = "SELECT id,cat_id,filename,title,date,keterangan,harganormal,diskon,publish $sc_field from catalogdata WHERE  ";
