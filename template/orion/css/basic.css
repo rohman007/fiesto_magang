@@ -444,6 +444,11 @@ div#footerlink .form-control {
 div#footerlink label.form-input {
   margin-bottom: 17px;
 }
+.ecommerce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .title-thumbnail-home {
   /* max-width: 65%; */
   font-size: 15pt;
@@ -799,9 +804,9 @@ div#slide-home {
 }
 
 div#content-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 40%;
+  transform: translateX(100%);
 }
 
 div#slide-block {
@@ -812,7 +817,7 @@ div#slide-block {
 div#content-slide h1 {
   /* font-size: 22pt; */
   font-weight: 600;
-  color: #ff0000;
+  color: #fff;
   /* margin: 0; */
   font-size: 3em;
   line-height: 1.2;
@@ -1364,6 +1369,13 @@ div#about-home:before {
 .dept_content a.link-more {
   display: none;
 }
+
+@media (max-width: 800px) {
+  div#footerlink .footer-item {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 768px) {
   div#slide-story > div {
     padding: 0 10px;
