@@ -4,6 +4,25 @@ body{
 	font-size:15px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+/*  Bagian NavBar */
+.nav-brand {
+    font-family: "Qwigley", cursive;
+    color: rgb(19, 129, 19);
+    font-size: 90px;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.514);
+  }
+  
+  nav ul :hover {
+    background-color: rgb(19, 129, 19);
+    border-radius: 15px;
+  }
+  /*  Bagian NavBar */
+
+
 h1,h2,h3{font-family: 'Playfair Display', serif;}
 b.caret {
     border-top-color: #ee892f;
@@ -366,8 +385,8 @@ label.form-input span {
 #call-block  .more:hover {background:#fff;color:#111f2a}
 .more:hover,a.link-more:hover {background:#022e19;color:#fff;border-color:#022e19;}
 #call-block .more {background:transparent;border-color:#fff}
-.more, a.link-more {
-    background: #f9b2ac;
+/* .more, a.link-more {
+    background: #0fb333;
     border: 0;
     color: #444;
     font-weight: 600;
@@ -378,7 +397,7 @@ label.form-input span {
     font-size: 12pt;
     border-right: 8px solid #999;
     text-transform: uppercase;
-}
+} */
 div#footerlink .more{background:#022e19;}
 div#footerlink .more:hover{background:#011a0e;}
 div#footerlink * {
@@ -590,7 +609,7 @@ div#banner-home {
 }
 .content-about h2 {
 
-    color: #7432f6 !important;
+    color: #0fb333 !important;
     font-weight: bold;
     font-size: 19pt;
     margin: 0;
@@ -1320,6 +1339,7 @@ div#footerlink .row {
 div#footerlink .row .col-sm-4:first-child {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 	#slide-home-mobile{display:none !important}
 

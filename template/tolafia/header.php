@@ -2,7 +2,7 @@
 	<!-- Navigation -->
 	<div id="content-blocker"></div>
     <nav id="header-site" class="navbar navbar-inverse" role="navigation">
-        <div class="container">
+        <div class="container d-flex">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <a class="navbar-brand" href="<?php echo $cfg_app_url ?>"><img src="<?php echo $template->image_url('logo');?>" alt="Logo"></a>
