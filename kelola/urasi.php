@@ -46,8 +46,8 @@ $iscustomdesign = false;	//jika custom maka link ke template di-del
 
 //OPTIONAL PLUGIN
 $belimobileversion = false;
-$pakaimarketplaceurl = true;
-$pakaicatalogattribut = true;
+$pakaimarketplaceurl = false;
+$pakaicatalogattribut = false;
 $pakaislug = false;
 $pakaifbpixel = false;
 
